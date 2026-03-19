@@ -1,2 +1,97 @@
 # FUSION-FOR-ENERGY-2026
-Le ultime informazioni riguardo le ricerche sulla produzione di energia da Fusione Nucleare
+
+# La fusione nucleare nel 2026: tra record storici e sfide irrisolte
+
+La fusione nucleare sta vivendo il periodo più dinamico della sua storia, ma la distanza tra i risultati di laboratorio e una centrale commerciale resta enorme. **Oltre 10 miliardi di dollari** di investimenti privati, una decina di accensioni ripetute al NIF, magneti superconduttori da 20 Tesla installati, plasma mantenuto per oltre 22 minuti — tutto questo è reale, concreto e senza precedenti. Eppure, nessun progetto al mondo ha ancora raggiunto il breakeven ingegneristico, il trizio disponibile sul pianeta basterebbe a malapena per avviare un singolo reattore, e i materiali capaci di resistere al bombardamento neutronico della fusione D-T non sono ancora qualificati. La timeline più realistica per elettricità da fusione sulla rete colloca i primi impianti pilota nella **prima metà degli anni 2030**, con contributo significativo alla rete elettrica non prima del **2040-2050**. Questo rapporto analizza ogni progetto rilevante, separando ciò che funziona da ciò che è in ritardo e da ciò che resta irrealistico.
+
+---
+
+## ITER procede, con nove anni di ritardo e costi quintuplicati
+
+Il progetto ITER a Cadarache rappresenta ancora il più grande esperimento di fusione mai tentato, progettato per dimostrare un fattore di guadagno **Q ≥ 10** (500 MW di potenza di fusione da 50 MW di riscaldamento). Dopo anni di crisi — difetti di corrosione negli scudi termici, non-conformità geometriche nei settori del vessel, la morte del direttore generale Bigot nel 2022 — il progetto si è stabilizzato sotto la guida di **Pietro Barabaschi** e la nuova Baseline 2024.
+
+La timeline attuale prevede la chiusura del criostato nel **marzo 2033**, l'inizio delle operazioni di ricerca (plasma di idrogeno e deuterio-deuterio) nel **2034**, e le operazioni in deuterio-trizio nel **2039** — circa nove anni dopo le previsioni originali. Il costo totale di costruzione è salito a circa **€23-25 miliardi**, rispetto ai €5 miliardi stimati nel 2006. L'aumento di €5 miliardi annunciato nel 2024 include, tra l'altro, la sostituzione del berillio con il tungsteno per la prima parete, da sola costata circa 1 miliardo di dollari.
+
+La buona notizia è che l'esecuzione recente è stata solida. Al 37° Consiglio ITER (novembre 2025), gli indici di performance di costo e schedule sono rimasti **superiori a 1,0 per due anni consecutivi** — il progetto procede più veloce del previsto rispetto alla baseline rivista. Nel 2025 sono stati installati tre moduli di settore del vessel a vuoto (su nove totali), completati tutti i **18 magneti toroidali superconduttori** e 5 dei 6 moduli del solenoide centrale, con il sesto completato da General Atomics nell'aprile 2025. Sette dei nove settori del vessel sono sul sito a febbraio 2026; i restanti due arriveranno nel 2026.
+
+Il cambiamento di paradigma più significativo riguarda la strategia operativa: la vecchia "first plasma" del 2025 sarebbe stata un test simbolico a bassa energia su una macchina incompleta. Con la nuova baseline, ITER inizierà le operazioni con **divertore, blocchi di schermatura del blanket, riscaldamento addizionale e sistemi di mitigazione delle disruzioni** già installati, consentendo vera ricerca scientifica dal primo giorno. L'Italia contribuisce con 95 specialisti sul sito, il Consorzio RFX di Padova sviluppa i sistemi di riscaldamento a fascio neutro, e aziende come Italfond e Forgiatura A. Vienna forniscono componenti forgiati.
+
+---
+
+## Il NIF ha raggiunto Q = 4,1, ma il breakeven ingegneristico resta lontano due ordini di grandezza
+
+Il National Ignition Facility di Livermore ha trasformato la singola accensione del dicembre 2022 in una capacità ripetibile e in miglioramento costante. A marzo 2026 si contano **almeno 10 esperimenti di accensione** riusciti, con guadagni crescenti:
+
+| Data | Energia laser (MJ) | Resa fusione (MJ) | Guadagno Q |
+|------|--------------------|--------------------|------------|
+| 5 dic 2022 | 2,05 | 3,15 | 1,54 |
+| 30 lug 2023 | 2,05 | 3,88 | ~1,89 |
+| 12 feb 2024 | 2,2 | 5,2 | ~2,36 |
+| 23 feb 2025 | 2,05 | 5,0 | 2,44 |
+| **7 apr 2025** | **2,08** | **8,6** | **4,13** |
+
+Il record dell'aprile 2025 — **8,6 MJ di resa da 2,08 MJ di input laser, Q = 4,13** — rappresenta un risultato straordinario in termini di fisica del plasma. Un articolo su *Science* dell'agosto 2025 ha dimostrato che modelli di deep learning hanno predetto l'accensione con probabilità superiore al 70%.
+
+Tuttavia, la distinzione critica è tra **breakeven scientifico** (energia di fusione vs energia consegnata al bersaglio) e **breakeven ingegneristico** (elettricità prodotta vs elettricità consumata dall'intero impianto). NIF consuma **300-400 MJ** dalla rete elettrica per ogni colpo laser che consegna ~2 MJ al bersaglio. Anche con la resa record di 8,6 MJ, il rapporto ingegneristico è circa **0,02-0,03** — due ordini di grandezza sotto il breakeven. Il laser opera con un'efficienza wall-plug dello 0,5-0,7%, può sparare solo una volta al giorno (un reattore commerciale richiederebbe ~10 colpi al secondo), e ogni capsula bersaglio costa centinaia di migliaia di dollari.
+
+L'approccio ICF ha però generato un'ondata di startup. **Pacific Fusion** ha raccolto 900 milioni di dollari in Serie A (novembre 2024) per un sistema a potenza pulsata. **Inertia Enterprises**, fondata dalla progettista capo dell'accensione NIF Annie Kritcher, ha chiuso una Serie A da **450 milioni** nel febbraio 2026, con l'obiettivo di costruire un sistema laser 50 volte più potente di qualsiasi laser precedente, con bersagli a meno di 1 dollaro l'uno. La collaborazione internazionale ICONIC-FL (Fraunhofer/LLNL, dicembre 2025) punta a industrializzare l'approccio laser.
+
+---
+
+## CFS, Helion, TAE: il settore privato corre, ma nessuno ha ancora dimostrato Q > 1
+
+**Commonwealth Fusion Systems** è il progetto privato più avanzato e meglio finanziato, con **2,86 miliardi di dollari** raccolti. Il tokamak SPARC a Devens, Massachusetts, è in fase di assemblaggio attivo: il primo dei 18 magneti toroidali a superconduttore ad alta temperatura (HTS) è stato installato nel **gennaio 2026** a CES, e CFS prevede di completare l'installazione di tutti i magneti **entro l'estate 2026**. Ogni magnete pesa 24 tonnellate e genera un campo di **20 Tesla** — circa 13 volte un apparecchio MRI — utilizzando nastro YBCO raffreddato a -253°C. Il criostato da 75 tonnellate è in posizione da marzo 2025. La first plasma è attesa per il **2027**, con l'obiettivo di raggiungere **Q ≈ 11** e 140 MW di potenza di fusione per impulsi di 10 secondi. Il DOE ha validato le performance dei magneti di produzione nel settembre 2025. La centrale commerciale ARC (**400 MWe**) è prevista a Chesterfield County, Virginia, in collaborazione con Dominion Energy, con elettricità sulla rete nei **primi anni 2030**. CFS ha firmato un PPA da 200 MW con Google nel giugno 2025 e una partnership con NVIDIA e Siemens per un gemello digitale di SPARC.
+
+**Helion Energy**, con oltre 1 miliardo di dollari raccolti e una valutazione di **5,4 miliardi**, punta su un approccio radicalmente diverso: configurazione a campo invertito (FRC) con compressione magnetica pulsata e **conversione diretta dell'energia** (senza turbina a vapore). Il prototipo Polaris, operativo dal dicembre 2024, è diventato nel **febbraio 2026** la **prima macchina privata a operare con combustibile deuterio-trizio**, raggiungendo 150 milioni di °C. Lo scavo del sito per Orion, il primo impianto commerciale da 50 MW a Malaga (Washington), è iniziato nel luglio 2025. Il PPA con Microsoft prevede la consegna di elettricità entro il **2028**, ma Helion aveva già mancato l'obiettivo di dimostrazione di elettricità netta nel 2024. La maggior parte degli esperti considera i **primi anni 2030** una previsione più realistica.
+
+**TAE Technologies** ha ottenuto una svolta significativa nell'aprile 2025: il reattore "Norm" ha dimostrato per la prima volta la **formazione di plasma FRC usando solo iniezione di fasci neutri**, un obiettivo inseguito per 30 anni. Il risultato, pubblicato su *Nature Communications*, riduce le dimensioni della macchina del 50% e ha portato TAE a **saltare Copernicus** (la sesta generazione prevista) per passare direttamente a **Da Vinci**, il primo prototipo commerciale. TAE punta sul combustibile idrogeno-boro (p-¹¹B), aneutronico ma richiedente temperature molto più elevate del D-T. Nel dicembre 2025, è stata annunciata una **fusione da 6 miliardi di dollari con Trump Media & Technology Group** per la quotazione in borsa, accolta con scetticismo dagli analisti.
+
+**General Fusion** attraversa difficoltà finanziarie: **licenziamenti del 25%** nel maggio 2025, ritardi significativi sull'impianto dimostrativo nel Regno Unito, e una quotazione via SPAC pianificata per metà 2026. Tra i progetti minori ma promettenti, **Zap Energy** ha raggiunto 1,6 gigapascal di pressione plasmatica nel suo dispositivo Z-pinch da soli 3,6 metri, e **Tokamak Energy** (UK) ha replicato campi magnetici di livello reattore (11,8 Tesla) con il sistema Demo4.
+
+---
+
+## La Cina investe 1,5 miliardi l'anno e stabilisce record, l'Europa punta sugli stellaratori
+
+Il programma cinese di fusione è il più aggressivo al mondo in termini di spesa pubblica — circa **1,5 miliardi di dollari all'anno**, il doppio degli Stati Uniti. Il tokamak EAST ha mantenuto plasma in modo H ad alta temperatura per **1.066 secondi** (gennaio 2025), superando il precedente record di 403 secondi. Nel gennaio 2026, EAST ha anche dimostrato un regime operativo oltre i limiti convenzionali di densità del plasma. Il tokamak HL-2M/HL-3 a Chengdu ha raggiunto simultaneamente **1 milione di ampere** di corrente plasmatica, 117 milioni di °C di temperatura ionica e 160 milioni di °C di temperatura elettronica. Il nuovo impianto BEST (Burning Plasma Experimental Superconducting Tokamak) a Hefei è in assemblaggio da maggio 2025, con completamento previsto nel 2027.
+
+Sul fronte privato, **ENN Energy** ha ottenuto nell'aprile 2025 un primato mondiale: **1 MA di corrente plasmatica con combustibile idrogeno-boro**, il primo risultato di questo tipo al mondo, sul dispositivo EXL-50U. L'investimento cumulativo R&D di ENN supera i 4,5 miliardi di yuan (~620 milioni di dollari). Nel luglio 2024 è stata fondata **China Fusion Energy Co.** con un investimento di 14,5 miliardi di yuan (~2 miliardi di dollari) da CNNC e CNPC come "squadra nazionale" della fusione. Il CFETR, il reattore di test ingegneristico cinese, dovrebbe iniziare la costruzione alla **fine degli anni 2020**, con l'obiettivo ufficiale di un reattore dimostrativo commerciale entro il **2045**.
+
+In Europa, il 2025 è stato l'anno della rinascita dello **stellaratore**. Il Wendelstein 7-X tedesco ha stabilito nel maggio 2025 il **record mondiale del triplo prodotto di fusione** per scariche superiori a 30 secondi — mantenuto per 43 secondi, superando tutti i precedenti record dei tokamak per performance a lunga durata. Il tokamak WEST francese ha battuto il record di EAST con **1.337 secondi** di plasma (febbraio 2025). Il JET, dopo il record finale di **69,29 MJ** in 6 secondi nell'ottobre 2023, è stato dismesso dopo 40 anni e 105.842 impulsi.
+
+Il progetto britannico **STEP** ha ricevuto **2,5 miliardi di sterline** e punta a un prototipo da 100+ MWe operativo entro il **2040** sul sito dell'ex centrale a carbone di West Burton. La Germania ha annunciato un **Fusion Action Plan da 2 miliardi di euro** (ottobre 2025). **Proxima Fusion** (Monaco, €200 milioni) progetta stellaratori commerciali basati su W7-X. **Marvel Fusion** (Monaco, €385 milioni totali) costruisce un impianto laser da 150 milioni di dollari alla Colorado State University. **Type One Energy** ha firmato i primi contratti commerciali con la Tennessee Valley Authority per un impianto pilota stellaratore da 350 MWe al sito della centrale fossile di Bull Run, con operatività prevista a **metà anni 2030**.
+
+---
+
+## Le cinque sfide tecniche che nessuno ha ancora risolto
+
+Il progresso nella fisica del plasma è stato notevole, ma le barriere principali alla fusione commerciale sono ora prevalentemente **ingegneristiche ed economiche**.
+
+**Il trizio è il collo di bottiglia più sottovalutato.** La scorta mondiale di trizio è stimata in soli **25-50 kg**, prodotta come sottoprodotto dei reattori CANDU canadesi e sudcoreani. Un reattore a fusione da 1 GWe consumerebbe circa **146 kg/anno**. Il trizio costa 30.000-40.000 dollari al grammo. I reattori CANDU stanno invecchiando, e i blanket di breeding al litio — necessari per l'autosufficienza (rapporto di breeding TBR > 1) — non sono mai stati testati in un ambiente di fusione reale. Mohamed Abdou (UCLA) ha dimostrato che un TBR di 1,05 è raggiungibile con alta confidenza, ma i margini sono estremamente sottili una volta considerate perdite, tempi di fermo e degradazione dei materiali. Il primo test reale avverrà con il programma Test Blanket Module di ITER, ma non prima del **2035**.
+
+**I materiali strutturali non sono qualificati per neutroni da 14,1 MeV.** I neutroni della fusione D-T sono molto più energetici di quelli della fissione e causano danni da spostamento atomico (20-30+ dpa/anno), trasmutazione con produzione di elio e idrogeno nel reticolo cristallino, e rigonfiamento dei materiali. Nessuna struttura di test esistente al mondo può replicare completamente lo spettro neutronico di un reattore D-T. I candidati principali — acciai RAFM come EUROFER-97, tungsteno, compositi SiC/SiC — richiedono qualificazione attraverso una sorgente neutronica dedicata (come IFMIF/DONES), non ancora operativa. Un risultato incoraggiante: il consorzio UKAEA Neurone ha dimostrato nel 2025 la **produzione industriale di acciaio RAFM** con un forno ad arco da 7 tonnellate, potenzialmente riducendo i costi dei materiali strutturali di un ordine di grandezza.
+
+**L'esaurimento del calore al divertore** rappresenta una delle sfide ingegneristiche più estreme dell'intera tecnologia. Il divertore di ITER deve gestire flussi termici stazionari di **10-20 MW/m²** a temperature di 1.000-2.000°C — condizioni che non hanno equivalenti in nessun altro campo dell'ingegneria. Le soluzioni in fase di studio includono geometrie avanzate (Super-X, snowflake), pareti in metallo liquido, e regimi di plasma distaccato. Le **disruzioni plasmatiche** — perdite improvvise del confinamento che scaricano energia enorme sui componenti in millisecondi — restano un rischio critico per i tokamak a scala ITER. L'operazione **stazionaria continua**, necessaria per un reattore commerciale con disponibilità dell'85%+, richiede sistemi di corrente non induttiva che nessun tokamak ha ancora dimostrato a scala industriale.
+
+---
+
+## Quando arriverà davvero la prima centrale a fusione commerciale
+
+Le previsioni variano enormemente a seconda della fonte, ma è possibile identificare tre scenari distinti basati sui dati più recenti.
+
+Lo **scenario ottimistico** (timeline delle aziende private e del DOE) colloca i primi impianti pilota sulla rete nella **prima metà degli anni 2030**. Il DOE americano ha pubblicato nell'ottobre 2025 una roadmap che punta a "fusione commerciale sulla rete entro la metà degli anni 2030". CFS prevede che ARC produca 400 MWe nei primi anni 2030. Type One Energy prevede un impianto stellaratore da 350 MWe a metà anni 2030. Il sondaggio FIA 2025 mostra che il **53% delle 53 aziende** intervistate prevede di connettere elettricità alla rete entro il 2035, e l'84% entro la fine degli anni 2030.
+
+Lo **scenario moderato** (esperti indipendenti e agenzie governative) punta al **2040-2045**. Il comitato consultivo FESAC del DOE prevede fattibilità economica a metà anni 2040. Il modello IAEA/MIT proietta 2 TWh di generazione da fusione nel 2035 (sostanzialmente simbolico), con crescita significativa solo dopo il 2050. Il progetto STEP britannico punta al 2040. La Cina prevede un reattore dimostrativo commerciale entro il 2045.
+
+Lo **scenario conservativo** (programmi istituzionali e critici) sposta la timeline oltre il **2050**. Il programma EU DEMO prevede operatività non prima del 2051. Un working paper del MIT CEEPR (ottobre 2025) stima la **fiducia degli investitori nel successo della commercializzazione sotto il 20%**. Scienziati come Steven Cowley (ex capo UKAEA) e Daniel Jassby (Princeton) avvertono che il problema del trizio "potrebbe essere fatale per l'intera impresa". Il NRC regolamentare americano ha adottato un framework leggero (Part 30, non Part 50), trattando le macchine a fusione più come acceleratori di particelle che come reattori nucleari — una decisione cruciale che rimuove un potenziale ostacolo pluriennale.
+
+L'analisi economica offre un quadro ambivalente. Le stime di LCOE per i primi impianti a fusione si collocano tra **50 e 110 $/MWh**, potenzialmente scendendo a 25-70 $/MWh con scala e apprendimento. Questo rende la fusione più costosa del solare e dell'eolico on-shore su base LCOE grezza, ma potenzialmente competitiva quando si includono i costi di sistema (accumulo, bilanciamento della rete, trasmissione). Uno studio Princeton-MIT pubblicato su *Joule* ha dimostrato che ogni GW di fusione può sostituire diversi GW di rinnovabili variabili, riducendo i costi di accumulo e infrastruttura di rete del **20-45%**. La domanda esplosiva di data center per l'intelligenza artificiale — che richiedono potenza concentrata, affidabile e continua — rappresenta il mercato più naturale per la fusione nei primi anni di commercializzazione.
+
+---
+
+## Conclusione: un decennio decisivo tra promesse e realtà
+
+Il 2025-2026 ha prodotto risultati tecnici senza precedenti nella storia della fusione: accensione ripetibile con Q > 4 al NIF, magneti HTS da 20 Tesla installati in SPARC, plasma D-T in una macchina privata per la prima volta (Helion), 1.337 secondi di confinamento al WEST, record del triplo prodotto al Wendelstein 7-X. Con oltre **10 miliardi di dollari** di investimenti privati cumulativi, 53+ aziende attive e un sostegno governativo crescente (€2 miliardi in Germania, £2,5 miliardi nel Regno Unito, $1,5 miliardi/anno in Cina), il settore non è mai stato così vitale.
+
+Ma i rischi restano sostanziali. **Nessuna entità al mondo ha dimostrato il breakeven ingegneristico.** Il gap tra il Q = 4,1 scientifico del NIF e l'efficienza complessiva ~0,03 è emblematico della distanza tra fisica del plasma e ingegneria di sistema. Il trizio globale basta per un singolo reattore sperimentale; i blanket di breeding non sono mai stati testati in condizioni reali. I materiali strutturali non sono qualificati per neutroni da 14,1 MeV. ITER, l'unico progetto progettato per dimostrare Q ≥ 10 a scala industriale integrata, non raggiungerà le operazioni D-T prima del 2039.
+
+La previsione più onesta è che vedremo i primi **impianti pilota dimostrare la produzione netta di elettricità** tra il 2030 e il 2035 — con CFS, Type One Energy e forse Helion come candidati più probabili — ma che il contributo della fusione alla rete elettrica globale resterà marginale fino agli anni **2040-2050**. Il decennio 2025-2035 determinerà se la fusione entrerà nel mix energetico globale come tecnologia trasformativa o resterà un'eterna promessa. Per la prima volta nella storia, i dati suggeriscono che la prima ipotesi è più probabile della seconda — ma con margini ancora incerti.
