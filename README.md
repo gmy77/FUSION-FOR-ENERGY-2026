@@ -1,6 +1,6 @@
-# FUSION-FOR-ENERGY-2026
+# FUSION-FOR-ENERGY-2025-2026
 
-# La fusione nucleare nel 2026: tra record storici e sfide irrisolte
+# La fusione nucleare nel 2025-2026: tra record storici e sfide irrisolte
 
 La fusione nucleare sta vivendo il periodo più dinamico della sua storia, ma la distanza tra i risultati di laboratorio e una centrale commerciale resta enorme. **Oltre 10 miliardi di dollari** di investimenti privati, una decina di accensioni ripetute al NIF, magneti superconduttori da 20 Tesla installati, plasma mantenuto per oltre 22 minuti — tutto questo è reale, concreto e senza precedenti. Eppure, nessun progetto al mondo ha ancora raggiunto il breakeven ingegneristico, il trizio disponibile sul pianeta basterebbe a malapena per avviare un singolo reattore, e i materiali capaci di resistere al bombardamento neutronico della fusione D-T non sono ancora qualificati. La timeline più realistica per elettricità da fusione sulla rete colloca i primi impianti pilota nella **prima metà degli anni 2030**, con contributo significativo alla rete elettrica non prima del **2040-2050**. Questo rapporto analizza ogni progetto rilevante, separando ciò che funziona da ciò che è in ritardo e da ciò che resta irrealistico.
 
